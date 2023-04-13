@@ -1,5 +1,5 @@
 import Products from './components/Products';
-const products = [
+const produit = [
   {
     id: 1,
     title: 'PC Portable Gamer HP VICTUS',
@@ -27,7 +27,7 @@ const products = [
 ];
 function App() {
   return (
-    <Products products={products} />
+    <Products products={produit} />
   )
 }
 
